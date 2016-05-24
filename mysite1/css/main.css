@@ -1,15 +1,17 @@
 * {
 	box-sizing: border-box;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 
 .section {
 	border: 1px solid black;
-	background-color: gray;
+	background-color: #a6a6a6;
 	position: relative;
 	/*width: 330px;*/
 	float: left;
 	margin:10px;
+	border-radius: 5px;
 }
 
 
@@ -23,6 +25,7 @@ h3{
 	text-align: center;
 	float: right;
 	margin-top: -1px;
+	border-radius: 5px;
 }
 
 p {
@@ -31,14 +34,14 @@ p {
 	padding-right: 4px;
 }
 #chicken {
-	background-color: red;
+	background-color: #ff6666;
 }
 
 #beef {
-	background-color: yellow;
+	background-color: #ffff80;
 }
 #sushi {
-	background-color: blue;
+	background-color: #00cccc;
 }
 
 
